@@ -7,8 +7,8 @@ const Graphic = observer(({rendererDOM}) => {
 
   useEffect(() => {
     refGraphic.current.innerHTML = ""
-    refGraphic.current.appendChild(rendererDOM)
-  }, [])
+    if (rendererDOM) refGraphic.current.appendChild(rendererDOM)
+  }, [rendererDOM])
 
   return (
     <div id={"Graphic"} ref={refGraphic}>

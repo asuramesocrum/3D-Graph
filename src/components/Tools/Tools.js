@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import CubeVoidStore from "../../store/CubeVoidStore";
+import ThreeTemplate from "../../utils/ThreeTemplate";
 
-const Tools = ({addCube, data}) => {
+const Tools = () => {
 
   const [menuActive, setMenuActive] = useState(false)
 
@@ -11,7 +12,7 @@ const Tools = ({addCube, data}) => {
 
   const handlerAddCubeVoid = (e) => {
     e.preventDefault()
-    addCube(parseInt(dataZ), parseInt(dataY), parseInt(dataX))
+    ThreeTemplate.addCube(dataY,dataX,dataZ)
   }
 
   return (
@@ -20,30 +21,30 @@ const Tools = ({addCube, data}) => {
         { menuActive ? "Click to open" : "Click to close" }
       </div>
       <div className="Tools__block">
-        <div className="title">
-          Data Z
-        </div>
-        {
-          data.dataZ.map(el => {
-            return <div>{el}</div>
-          })
-        }
-        <div className="title">
-          Data Y
-        </div>
-        {
-          data.dataY.map(el => {
-            return <div>{el}</div>
-          })
-        }
-        <div className="title">
-          Data X
-        </div>
-        {
-          data.dataX.map(el => {
-            return <div>{el}</div>
-          })
-        }
+        {/*<div className="title">*/}
+        {/*  Data Z*/}
+        {/*</div>*/}
+        {/*{*/}
+        {/*  data.dataZ.map(el => {*/}
+        {/*    return <div>{el}</div>*/}
+        {/*  })*/}
+        {/*}*/}
+        {/*<div className="title">*/}
+        {/*  Data Y*/}
+        {/*</div>*/}
+        {/*{*/}
+        {/*  data.dataY.map(el => {*/}
+        {/*    return <div>{el}</div>*/}
+        {/*  })*/}
+        {/*}*/}
+        {/*<div className="title">*/}
+        {/*  Data X*/}
+        {/*</div>*/}
+        {/*{*/}
+        {/*  data.dataX.map(el => {*/}
+        {/*    return <div>{el}</div>*/}
+        {/*  })*/}
+        {/*}*/}
       </div>
       <div className="Tools__block">
         <div className="title">
