@@ -1,0 +1,92 @@
+{
+  "labelList": {
+    "y": [
+      {
+        "id": 1,
+        "mesh": null,
+        "text": "Иванов"
+      },
+      {
+        "id": 2,
+        "mesh": null,
+        "text": "Петров"
+      },
+      {
+        "id": 3,
+        "mesh": null,
+        "text": "Сидоров"
+      },
+      {
+        "id": 4,
+        "mesh": null,
+        "text": "Птицина"
+      }
+    ],
+    "x": [
+      {
+        "id": 1,
+        "mesh": null,
+        "text": "01.05.2022"
+      },
+      {
+        "id": 2,
+        "mesh": null,
+        "text": "02.05.2022"
+      },
+      {
+        "id": 3,
+        "mesh": null,
+        "text": "03.05.2022"
+      },
+      {
+        "id": 4,
+        "mesh": null,
+        "text": "04.05.2022"
+      }
+    ],
+    "z": [
+      {
+        "id": 1,
+        "mesh": null,
+        "text": "2.10"
+      },
+      {
+        "id": 2,
+        "mesh": null,
+        "text": "2:20"
+      },
+      {
+        "id": 3,
+        "mesh": null,
+        "text": "2.30"
+      },
+      {
+        "id": 4,
+        "mesh": null,
+        "text": "2:29"
+      },
+      {
+        "id": 5,
+        "mesh": null,
+        "text": "2:30"
+      }
+    ]
+  },
+  "cubeList": [
+    {
+      "y": 0,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "y": 0,
+      "x": 1,
+      "z": 1
+    },
+    {
+      "y": 1,
+      "x": 0,
+      "z": 0
+    }
+  ]
+}

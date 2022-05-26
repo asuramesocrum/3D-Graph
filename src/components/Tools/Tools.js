@@ -21,30 +21,7 @@ const Tools = () => {
         { menuActive ? "Click to open" : "Click to close" }
       </div>
       <div className="Tools__block">
-        {/*<div className="title">*/}
-        {/*  Data Z*/}
-        {/*</div>*/}
-        {/*{*/}
-        {/*  data.dataZ.map(el => {*/}
-        {/*    return <div>{el}</div>*/}
-        {/*  })*/}
-        {/*}*/}
-        {/*<div className="title">*/}
-        {/*  Data Y*/}
-        {/*</div>*/}
-        {/*{*/}
-        {/*  data.dataY.map(el => {*/}
-        {/*    return <div>{el}</div>*/}
-        {/*  })*/}
-        {/*}*/}
-        {/*<div className="title">*/}
-        {/*  Data X*/}
-        {/*</div>*/}
-        {/*{*/}
-        {/*  data.dataX.map(el => {*/}
-        {/*    return <div>{el}</div>*/}
-        {/*  })*/}
-        {/*}*/}
+
       </div>
       <div className="Tools__block">
         <div className="title">
