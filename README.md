@@ -6,10 +6,10 @@
 Перейдите по [http://localhost:3000](http://localhost:3000) что-бы посмотреть в браузере.
 
 
-Локально загрузить json файл.
-db/filename.json
-после перейдите по пути добавив имя файла.
-https://host.ru/template/namefilejson
+Локально загрузить json файл.\
+db/filename.json\
+После перейдите по пути шаблон которого ниже добавив имя файла без расширения.\
+https://host.ru/template/**namefilejson_**\
 
 
 ### `yarn build` or `npm run build`
