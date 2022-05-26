@@ -9,7 +9,7 @@
 Локально загрузить json файл.\
 db/filename.json\
 После перейдите по пути шаблон которого ниже добавив имя файла без расширения.\
-https://host.ru/template/**namefilejson_**\
+https://host.ru/template/**namefilejson** \
 
 
 ### `yarn build` or `npm run build`
